@@ -1,1 +1,5 @@
-node_modules
+# Ignore all node_modules folders
+node_modules/
+
+# Specifically ignore node_modules inside __tests__ as well (optional if above line is included)
+tests/node_modules/
